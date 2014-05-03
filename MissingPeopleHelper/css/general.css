@@ -1,0 +1,117 @@
+.missing-people-wrapper {
+	background: #fff;
+	padding: 15px;
+	box-sizing: border-box;
+	border: 1px solid;
+	border-color: #e5e6e9 #dfe0e4 #d0d1d5;
+	-webkit-border-radius: 3px;
+	margin-bottom: 10px;
+}
+
+.missing-people-wrapper a {
+	font-weight: bold;
+	font-size: 14px;
+}
+
+.missing-people-wrapper ul {
+	margin-top: 10px; 
+	clear: both;
+	width: 104%;
+}
+.missing-people-wrapper li {
+	display: inline-block;
+	margin-right: 10px;
+}
+
+.missing-people-wrapper li.person-wrapper {
+	border: 1px solid #CCC;
+}
+
+.missing-people-wrapper li.visible {
+	display: inline-block;
+}
+
+.missing-people-wrapper li.non-visible{
+	display: none;
+}
+
+.missing-people-wrapper li  img {
+	width: 100px;
+	display: inline-block;
+	vertical-align: bottom;
+	height: 100px;
+}
+
+.missing-people-wrapper li  span {
+	background: rgba(0, 0, 0, 0.4);
+	color: #fff;
+	padding: 4px 8px;
+	display: inline-block;
+	margin-left: -100px;
+	width: 100px;
+	box-sizing: border-box;
+	text-align: center;
+}
+
+.person-info-wrapper {
+	display: none;
+	margin-top: 15px;
+	color: #3b5998;
+}
+
+li.selected {
+	box-shadow: 4px 4px 5px #000;
+}
+li {
+	box-shadow: none;
+}
+li.visible, li.non-visible {
+	margin-right: 7.5px;
+}
+ul li.previous.disabled, ul li.next.disabled  {
+	opacity: 0.2;
+}
+li.previous {
+	opacity: 1;
+	cursor: pointer;
+	display: inline-block;
+	vertical-align: top;
+	height: 100%;
+	padding: 43px 7px;
+	border-radius: 4px 0 0 4px;
+	background: #e9eaed;
+	color: #3b5998;
+	margin-left: -11px;
+   font-weight: bold;
+   margin-right: 4px;
+}
+li.next {
+	opacity: 1;
+	cursor: pointer;
+	display: inline-block;
+	vertical-align: top;
+	height: 100%;
+	padding: 43px 7px;
+	border-radius: 0 4px 4px 0;
+	background: #e9eaed;
+	color: #3b5998;
+	float: right;
+	margin-left: -6px;
+   font-weight: bold;   
+}
+ul.info {
+	display: block;
+	margin-top: 15px;
+	border: 1px solid #CCC;
+	padding: 10px;
+	width: 95%;
+	margin: 16px auto 0 auto;
+	background: #FCFCFC;
+}
+ul.info  li{
+	line-height: 25px;
+	display: block;
+}
+li.selected {
+	box-shadow: 4px 4px 5px #000;
+}

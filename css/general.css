@@ -1,0 +1,137 @@
+﻿@font-face {
+    font-family: 'open_sansbold';
+    src: url('../fonts/OpenSans-Bold-webfont.eot');
+    src: url('../fonts/OpenSans-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/OpenSans-Bold-webfont.woff') format('woff'),
+         url('../fonts/OpenSans-Bold-webfont.ttf') format('truetype'),
+         url('../fonts/OpenSans-Bold-webfont.svg#open_sansbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'open_sansregular';
+    src: url('OpenSans-Regular-webfont.eot');
+    src: url('OpenSans-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('OpenSans-Regular-webfont.woff') format('woff'),
+         url('OpenSans-Regular-webfont.ttf') format('truetype'),
+         url('OpenSans-Regular-webfont.svg#open_sansregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+body {
+	background: -moz-linear-gradient(top,  rgba(102,102,102,0.31) 0%, rgba(0,0,0,0) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(102,102,102,0.31)), color-stop(100%,rgba(0,0,0,0))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  rgba(102,102,102,0.31) 0%,rgba(0,0,0,0) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  rgba(102,102,102,0.31) 0%,rgba(0,0,0,0) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  rgba(102,102,102,0.31) 0%,rgba(0,0,0,0) 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  rgba(102,102,102,0.31) 0%,rgba(0,0,0,0) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4f666666', endColorstr='#00000000',GradientType=0 ); /* IE6-9 */
+
+}
+html, body {
+	margin: 0;
+	padding: 0;
+}
+input, textarea, select {
+	background: #f4f4f4;
+	border-radius: 5px;
+	border: 1px solid #CCC;
+}
+input[type="text"], select {
+	height: 40px;
+	width: 46%;
+}
+.wrapper {
+	width: 940px;
+	margin: 0 auto;
+}
+.top {
+	box-shadow: 0 8px 5px -5px rgba(0, 0, 0, 0.4);
+	height: 41px;
+	padding: 0 14px;
+}
+h1, h2 {
+	font-family: open_sansbold;
+	font-size: 25px;
+	display: block;
+	color: #152E68;
+}
+h2 {
+	font-size: 18px;
+	padding: 15px 45px;
+}
+.text, li {
+	font-family: open_sansregular;
+	font-size: 14px;
+	color: #152E68;
+}	
+.title {
+	margin-left: 22px;
+}
+.text {	
+	width: 840px;
+	margin: 10px auto;
+}
+
+a, .links, label, p , .del{
+	font-family: open_sansbold;
+	font-size: 15px;
+	color: #152E68;
+	text-align: left;
+}
+label {
+	display: block;
+}
+.content {
+	padding-left: 100px;
+}
+.links {
+	float: right;
+	font-size: 8px;
+	margin-top: -40px;
+}
+.btn {
+	padding: 5px 10px;
+	border-radius: 5px;
+	color: #fff;
+	text-decoration: none;
+	font-family: open_sansbold;
+	background: rgb(21,46,104); /* Old browsers */
+	background: -moz-radial-gradient(center, ellipse cover,  rgba(21,46,104,1) 0%, rgba(46,37,63,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(21,46,104,1)), color-stop(100%,rgba(46,37,63,1))); /* Chrome,Safari4+ */
+	background: -webkit-radial-gradient(center, ellipse cover,  rgba(21,46,104,1) 0%,rgba(46,37,63,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-radial-gradient(center, ellipse cover,  rgba(21,46,104,1) 0%,rgba(46,37,63,1) 100%); /* Opera 12+ */
+	background: -ms-radial-gradient(center, ellipse cover,  rgba(21,46,104,1) 0%,rgba(46,37,63,1) 100%); /* IE10+ */
+	background: radial-gradient(ellipse at center,  rgba(21,46,104,1) 0%,rgba(46,37,63,1) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#152e68', endColorstr='#2e253f',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+}
+.success {
+	border: 1px solid #15ab33;
+	width: 58%;
+	margin: 61px auto 20px auto;
+	border-radius: 3px;
+	text-align: center;
+	background: rgba(106, 196, 109, 0.4);
+	color: #15ab33;
+	padding: 5px 0;
+}
+.error {
+	border: 1px solid #991111;
+	width: 58%;
+	margin: 61px auto 20px auto;
+	border-radius: 3px;
+	text-align: center;
+	background: rgba(235, 148, 148, 0.4);
+	color: #991111;
+	padding: 5px 0;
+}
+.del {
+	float: right;
+	font-family: open_sansbold;
+	font-size: 15px;
+	margin-top: 30px;
+	margin-right: 20px;
+}
